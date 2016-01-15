@@ -1,7 +1,22 @@
 body{
     font-size: 14px;
     background-color:whitesmoke;
-    color:blue;
-        
-
+  
 }
+
+header{
+    background-color: antiquewhite;
+}
+
+nav{
+    background-color: azure;
+}
+
+section{
+    background-color: bisque;
+}
+
+footer{
+    background-color: aqua;
+}
+
