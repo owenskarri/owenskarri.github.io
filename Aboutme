@@ -1,3 +1,14 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head> 
+    <meta charset="utf-8">
+    <title>Karri's Website</title>
+        <link rel="stylesheet" href="main.css">
+    </head>
+<body>
+    <header>Karri Owens</header>
+    <nav><a href="index">Home</a></nav>
+<section>
 <p>
 Emerging talented multimedia designer enrolled at Eastern Washington University-Visual Communication Design program as a Post-Bachelor.  I received my first Bachelors at Washington State University in Apparel Merchandising & Textiles, minoring in Business Administration.  The past 15 years I have showed my entrepreneurial spirit by starting and managing my own businesses, Owens Quarter Horses and DesignsbyKarKar.
 </p>
@@ -13,3 +24,5 @@ In 2010 I started DesignsbyKarKar, custom hat & applique business tailored to th
 <p>
 I enjoy collaborating with clients in achieving their desired goal in my design work. Services I provide are graphic design for print or web, video editing, web sites and photography.  I am your one stop shop for Multimedia Design. My skills will deepen and advance as I progress through school.  I am schedule to have my Bachelors of Arts in Visual Design 2017.
 </p>
+</section>
+</body>
