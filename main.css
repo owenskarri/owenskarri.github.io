@@ -1,6 +1,7 @@
 body{
     font-size: 14px;
     background-color:whitesmoke;
+    font-family:sans-serif;
   
 }
 
@@ -20,3 +21,13 @@ footer{
     background-color: aqua;
 }
 
+a:link{
+    text-decoration: none;
+}
+
+#Oscpic {
+    height: 300px;
+    width: 300px;
+    margin-right: 10px;
+    float: left;
+}
