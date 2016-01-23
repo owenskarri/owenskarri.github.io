@@ -1,0 +1,97 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    font-family: sans-serif;
+  margin: 20px;
+    position: absolute;
+    
+}
+
+#wrapper {
+  border: 2px dotted slategray;
+  width: 800px;
+  margin: 50 auto;
+    padding: 20px 10px 10px 10px;
+
+}
+
+#image{
+    float: left;
+    padding: 10px;
+    border-style: dotted;
+    margin: 0px 10px 10px 10px;
+}
+.headerbox{
+    font-size: 200%;
+    background-color: aqua;
+    padding: 5px;
+    margin: 10px;
+    
+}
+.button-box{
+    color: white;
+    background-color: darkgray;
+    font-size: 150%;
+    text-decoration: none;
+    border-radius: 10px;
+    padding: 10px; 
+    
+    
+}
+.button-margin{
+    height: 10px;
+    
+}
+
+#header-1 {
+    margin: 10px 10px 0px 10px;
+    font-weight: bolder;
+    font-size: 125%;
+}
+
+#header-2 {
+    margin: 0px 10px 10px 10px;
+    font-size: 75%;
+    font-weight: bolder;
+}
+
+.related-links {
+    font-size: 20px;
+    font-weight: bold;
+    color: wheat;
+}
+
+a:visited.button-box {
+    color: white;
+}
+
+a:hover.button-box{
+    color:aqua;
+}
+
+footer {
+    border: dotted;
+    margin: 5px;
+    box-sizing: border-box;
+    padding: 10px;
+}
+nav{
+    padding: 0px 0px 0px 10px;
+}
+
+a:visited {
+    color: grey;
+}
+a:hover{
+    color: aqua;
+}
+
+.footer-p {
+    font-size: 24px;
+    font-weight: bold;
+}
+.p-content {
+    padding: 0px 10px 0px 10px;
+    
+}
