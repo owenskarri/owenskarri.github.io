@@ -103,7 +103,14 @@ background: white;
 }
 
 .product-buy-it-now {
-    
     align-items: center;
     
+}
+
+#product-reviews{
+    
+    background: navy;
+    color: antiquewhite;
+    text-align: center;
+    padding: 50px;
 }
