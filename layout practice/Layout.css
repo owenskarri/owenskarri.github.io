@@ -62,3 +62,48 @@ background: white;
     font-size: 18px;
     
 }
+
+/*product features*/
+.product-features, .product-buy-it-now {
+    
+    display:flex;
+    
+}
+
+.feature {  
+    text-align: center;
+    padding: 20px;
+    
+    
+}
+
+
+.feature-image{
+    background: orange;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto 0 auto;
+    overflow: hidden;
+    border-radius: 50%;
+    
+    
+    
+}
+
+
+    
+
+
+.product-info {  
+    text-align: right;
+   
+    
+  
+    
+}
+
+.product-buy-it-now {
+    
+    align-items: center;
+    
+}
