@@ -114,3 +114,30 @@ background: white;
     text-align: center;
     padding: 50px;
 }
+
+footer {
+    display: flex;
+    padding: 15px 10px 15px 10px;
+    font size: 12px
+    
+}
+
+.footer-links  {
+    flex: 1;
+   
+    
+    
+}
+
+.footer-links a {
+    text-decoration: none;
+}
+
+.footer-text {
+    text-align: right;
+    flex: 1;
+}
+
+.footer-text p {
+    margin: 0;
+}
