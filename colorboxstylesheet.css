@@ -119,8 +119,8 @@ header {
 
 
 .side-bar {
-    
-    
+    margin: 0 20px 20px 20px;
+    float: left;
     height: 395px;
     width: 175px;
     background-color: green;
@@ -129,9 +129,10 @@ header {
 }
 
 .main-content3 {
+    margin-right: 20px;
+    float:right;
     
- 
-    width: 730px;
+    width: 715px;
     height: 395px;
     background-color: blue;
    
