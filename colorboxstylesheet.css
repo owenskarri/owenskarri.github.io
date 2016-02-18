@@ -1,0 +1,138 @@
+*{ box-sizing: border-box}
+
+
+.main-container{
+    width: 960px;
+    height: 570px;
+    margin: 0px auto 0px auto;
+    background-color: lightslategrey;
+    position: relative;
+    border-style: solid;
+    
+    
+}
+
+.box1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100px;
+    width: 100px;
+    background-color: red;
+    
+}
+
+.box2 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100px;
+    width: 100px;
+    background-color: blue;
+    
+    
+}
+
+.box3 {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    height: 100px;
+    width: 100px;
+    background-color: yellow;
+    
+    
+}
+
+.box4 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    height: 100px;
+    width: 100px;
+    background-color: green;
+
+}
+
+/* page 2 Flex Items */
+
+.flexbox-container {
+  display: flex;
+  background: gray;
+  
+    border-style: solid;
+    height: 570px;
+    width: 960px;
+    margin: 130px auto 130px auto;
+    background-color: lightslategrey;
+}
+
+.flex-item-1 {
+    background-color: red;
+    width: 240px;
+    
+    
+}
+.flex-item-2 {
+    background-color: green;
+    width: 240px;
+    
+}
+.flex-item-3 {
+    background-color: blue;
+    width: 240px;
+  
+  
+}
+
+.flex-item-4 {
+    background-color: yellow;
+    width: 240px;
+
+}
+
+/* page 3 */
+
+.page3-container {
+    
+    
+    
+    border-style: solid;
+    height: 570px;
+    width: 960px;
+    margin: 130px auto 130px auto;
+    background-color: lightslategrey;
+    
+}
+
+header {
+    
+    
+    background-color: red;
+    height: 120px;
+    width: 920px;
+    margin: 20px;
+    
+    
+}
+
+
+
+.side-bar {
+    
+    
+    height: 395px;
+    width: 175px;
+    background-color: green;
+    
+    
+}
+
+.main-content3 {
+    
+ 
+    width: 730px;
+    height: 395px;
+    background-color: blue;
+   
+}
