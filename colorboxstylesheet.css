@@ -91,19 +91,8 @@
 
 }
 
-/* page 3 */
+/* page 3 flex box*/
 
-.page3-container {
-    
-    
-    
-    border-style: solid;
-    height: 570px;
-    width: 960px;
-    margin: 130px auto 130px auto;
-    background-color: lightslategrey;
-    
-}
 
 header {
     
@@ -117,22 +106,30 @@ header {
 }
 
 
+.flex-container {
+    margin: 0px auto 0px auto;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    width: 960px;
+    height: 580px;
+    background-color: lightgrey;
+    border-style: solid;
+}
 
-.side-bar {
-    margin: 0 20px 20px 20px;
-    float: left;
-    height: 395px;
-    width: 175px;
+.flex-item-green {
     background-color: green;
-    
+    width: 175px;
+    height: 395px;
+    margin: 0 20px 20px 20px;
     
 }
 
-.main-content3 {
-    margin-right: 20px;
-    float:right;
+.flex-item-blue {
+    background-color: blue;
     width: 715px;
     height: 395px;
-    background-color: blue;
-   
+    margin: 0 20px 20px 0;
+    
 }
