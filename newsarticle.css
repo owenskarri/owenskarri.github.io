@@ -1,0 +1,45 @@
+p {
+    font-family: "Times New Roman", Times, serif;
+    font-size: large;
+    text-indent: 25px;
+}
+
+h1, h2 {
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    text-align: center;
+    text-shadow: 2px 2px grey;
+}
+
+.capitalize {
+    text-transform: capitalize;
+}
+.x-small {
+    
+    font-size: x-small;
+}
+
+.bold {
+    font-weight: 800;
+}
+
+.italic {
+    font-style: italic;
+}
+
+h2 {
+    font-variant: small-caps;
+    text-decoration: underline;
+    letter-spacing: 2px;
+}
+.line-height {
+    
+    line-height: 200%;
+}
+.word-spacing {
+    
+    word-spacing: 30px;
+}
