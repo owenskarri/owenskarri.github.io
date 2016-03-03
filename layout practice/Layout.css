@@ -1,6 +1,12 @@
 *{ box-sizing: border-box}
 
+a:hover {
+    background-color: #a3be4a;
+}
 
+h1 {
+    font-family: sans-serif;
+}
 
 .main-container{
     width: 900px;
@@ -10,14 +16,14 @@
 }
 
 .promo-container{
-    background: lightgrey;
+    background-color: #a3be4a;
     
 }
 
 .branding {
-    background: black;
+    background-color: azure;
     width: 150px;
-    height: 45px;
+    height: 150px;
     margin-right: auto;
     
 }
@@ -28,20 +34,25 @@ header {
 }
 
 .pill-button {
-    display: inline-block
-    border: 2px solid #a1a1a1;
+    display: inline-block;
+    border: 2px solid #ffffff;
     padding: 10px 30px; 
-    background: grey;
+    background: #7f5e40;
     border-radius: 20px;
     text-decoration: none;
     color:white;
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: 800;
+    margin: 10px;
     
 }
 
 /*Big promo*/
 #big-promo {
     padding-top: 200px;
-    background: pink;
+    background-color: #d3c5b7;
+    
     
     
     
@@ -51,15 +62,20 @@ header {
 .promo-message {
     width: 60%;
     padding: 50px;
-    background: aqua;
+    background-color: beige;
+    box-shadow: 10px 10px 5px #888888;
+    
+    
     
     
 }
 
 .promo {
-background: white;
-    color: black;
-    font-size: 18px;
+background: #7f5e40;
+    color: white;
+    
+    font-family: sans-serif;
+    font-size: large;
     
 }
 
@@ -79,7 +95,7 @@ background: white;
 
 
 .feature-image{
-    background: orange;
+    background-color:bisque;
     width: 200px;
     height: 200px;
     margin: 0 auto 0 auto;
@@ -104,12 +120,14 @@ background: white;
 
 .product-buy-it-now {
     align-items: center;
+    font-family: sans-serif;
+    color:saddlebrown;
     
 }
 
 #product-reviews{
     
-    background: navy;
+    background: #a3b34a;
     color: antiquewhite;
     text-align: center;
     padding: 50px;
@@ -118,12 +136,16 @@ background: white;
 footer {
     display: flex;
     padding: 15px 10px 15px 10px;
-    font size: 12px
+    font size: 12px;
+    background-color: #7f5e40;
+    border-top: solid;
+    border-color: beige;
     
 }
 
 .footer-links  {
     flex: 1;
+    
    
     
     
@@ -131,11 +153,17 @@ footer {
 
 .footer-links a {
     text-decoration: none;
+    margin: 5px;
+    font-family: sans-serif;
+    color: white; 
 }
 
 .footer-text {
     text-align: right;
     flex: 1;
+    color: white;
+    font-family: sans-serif;
+    font-size: small;
 }
 
 .footer-text p {
