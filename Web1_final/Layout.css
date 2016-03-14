@@ -1,0 +1,397 @@
+*{ box-sizing: border-box}
+
+body {
+    
+    font-family: 'Roboto', sans-serif;
+}
+
+a:hover {
+    background-color: #814b33;
+    
+}
+
+a:visited {
+    color: navajowhite;
+}
+
+a:active {
+    color: white;
+} 
+
+h1 {
+    font-family: sans-serif;
+}
+
+.main-container{
+    
+    margin: 0px auto 0px auto;
+    
+    
+}
+
+.promo-container{
+    background-color: #a3b34a;
+    
+}
+
+.logo {
+    
+    width: 400px;
+    height: 100px;
+    margin-left: auto;
+    
+}
+    
+header {
+    display: flex;
+    
+}
+
+.signup-box{
+    
+    width: 60%;
+    margin: auto;
+    text-align: center;
+    font-family: sans-serif;
+    color: saddlebrown;
+}
+
+.pricing-button,  .pill-button {
+    display: inline-block;
+    border: 2px solid #ffffff;
+    padding: 20px 30px; 
+    background: #a3b34a;
+     text-transform: uppercase;
+    text-decoration: none;
+    color:white;
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: 800;
+    margin: 40px 0px 0px auto;
+    
+}
+
+
+
+.buynow-button {
+    
+   
+    border: 2px solid #ffffff;
+    padding: 20px 30px; 
+    background: #a3b34a;
+     text-transform: uppercase;
+    text-decoration: none;
+    color:white;
+    font-family: sans-serif;
+    font-size: large;
+    font-weight: 800;
+    position: absolute;
+    left: 35%;
+   
+    top: 475px;
+    
+    		
+    
+ 		
+    
+    
+}
+
+
+.nav-button{
+     display: inline-block;
+    /*
+    border: 2px solid #ffffff;
+    padding: 20px 30px; 
+    background: #7f5e40;
+    border-radius: 20px;
+    */
+    text-decoration: none;
+    color:black;
+    font-family: sans-serif;
+    font-size: x-large;
+    font-weight: 900;
+    margin: 20px 0px 0px 10px;
+    
+    
+}
+
+
+
+#big-promo {
+    height: 450px;
+    padding-top: 100px;
+    background-image: url("lupas.jpeg");
+    
+    width:auto; 
+    position: relative;
+}
+
+
+.promo {
+background: #7f5e40;
+    color: white;
+    
+    font-family: sans-serif;
+    font-size: large;
+    
+}
+
+.product-features, .product-buy-it-now, .desert-features  {
+    
+    display:flex;
+    
+}
+
+/*.desert-features{
+    
+    margin: 40px 2px 40px 20px;
+}*/
+
+.product-features {
+    
+    background-color:lightyellow;
+}
+
+.feature {  
+    text-align: center;
+    padding: 20px;
+    
+    
+}
+
+
+.feature-image{
+    background-color:bisque;
+    width: 300px;
+    height: 200px;
+    margin: 0 auto 0 auto;
+    overflow: hidden;  
+}
+
+/*.desert-image {
+    width: 100%;
+     padding:5px;  
+    
+
+}*/
+
+.product-image-features{
+    
+    background-image: url("waterfall-swim.jpeg");
+    background-size:100%;
+    background-repeat: no-repeat;
+    height: 600px;
+    
+    
+    width:100%; 
+    position: relative;
+    padding:200px;
+    margin: auto;
+    
+}
+
+
+.product-image{
+    
+    background-image: url("waterfall-swim.jpeg");
+    background-size:100%;
+    background-repeat: no-repeat;
+    height: 600px;
+    
+    
+    width:100%; 
+    position: relative;
+    
+    margin: auto;
+    
+    
+}
+
+.top-section {
+    
+    margin: 40px 0px 40px 0px;
+}
+
+#waterfall-banner{
+    width: 100%;
+    padding: 20px;
+    margin: auto;
+}
+
+.dwaterfall-text{
+    text-align: center;
+    font-size: large;
+    width: 500px;
+    margin:auto;
+    padding: 20px;
+    
+}
+
+.flex-container {
+    margin: 0px auto 0px auto;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+   
+    background-color: bisque;
+    
+}
+
+
+
+ .flex-item-1 {
+    width: 50%;
+  padding: 20px;
+   
+    
+}
+
+.flex-item-2 {
+    
+  
+    
+    padding: 20px 10px 100px 200px;
+    margin:auto;
+   
+    
+}   
+
+
+.product-info {  
+    text-align: right;
+   
+    
+  
+    
+}
+
+.product-buy-it-now {
+    align-items: center;
+    font-family: sans-serif;
+    color:saddlebrown;
+    
+}
+
+
+
+.pricing-text {
+    position: relative;
+    text-align: center;
+    padding: 20px
+}
+
+.packages { 
+    font-weight: 700;
+    font-size: large;
+    font-family: sans-serif;
+    padding: 0px 30px 0px 30px;
+}
+
+p.package-content{
+    
+    line-height: 25px;
+}
+
+.amount { 
+    font-family: sans-serif;
+    padding: 30px 0px 0px 0px;
+    font-size: 250%;
+    font-weight: normal;
+
+}
+
+#bold {
+    font-size: 250%;
+    font-weight: bolder;
+    font-family: sans-serif;
+    padding: 30px 0px 0px 0px;
+}
+
+.flex-item-desert {
+    
+    
+    background-color: beige;
+    margin:5px;
+    width: 100%;
+    
+    
+}
+
+.flex-item-pricing {
+    
+    border-color: #a3b34a; 
+    margin: 20px;
+    border-style: solid;
+    position: relative;
+    background-color: antiquewhite;
+    height: 570px;
+    
+}
+
+
+section.blog-text {
+    
+    background-color: bisque;
+    padding: 20px;
+}
+
+
+#redrock {
+    height: 300px;
+    width: 500px;
+    
+    margin-left: 20px;
+    float: right;
+}
+
+#safari {
+    height: 300px;
+    width: 500px;
+    
+    margin-right: 20px;
+    float: left;
+    
+    
+}
+
+footer {
+    
+    padding: 15px 10px 15px 10px;
+    
+    font size: 12px;
+    background-color: #a3b34a;
+    
+    
+}
+
+.footer-links  {
+    justify-content: flex-end;
+    display: inline-block;
+    display: flex;
+  
+   
+    
+    
+}
+
+.footer-links a {
+    
+    margin: 40px 0px 0px 0px;
+    font-family: sans-serif;
+    color: white;
+    padding: 10px 0px 5px 20px;
+}
+
+.footer-text {
+    text-align: right;
+   
+    color: white;
+    font-family: sans-serif;
+    font-size: small;
+}
+
+.footer-text p {
+    margin: 10px 0px;
+}
